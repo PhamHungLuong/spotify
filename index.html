@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/base.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="category">
+        <ul class="category-list">
+
+            <li class="category-list__item-header">
+                <img src="assets/img/logo.png" alt="" class="category-list__item-img">
+                <div class="category-list__header-text">
+                    Spotify
+                </div>
+            </li>
+
+            <li class="category-list__item">
+                <div class="category-list__item-function category__items--hover">
+                    <i class="fas fa-home"></i>
+                    <div class="category-list__item-text">
+                        Trang Chủ
+                    </div>
+                </div>
+                <div class="category-list__item-function category__items--hover">
+                    <i class="fas fa-search"></i>
+                    <div class="category-list__item-text">
+                        Tìm Kiếm
+                    </div>
+                </div>
+                <div class="category-list__item-function category__items--hover">
+                    <i class="fas fa-tasks"></i>
+                    <div class="category-list__item-text">
+                        Thư viện
+                    </div>
+                </div>
+            </li>
+
+            <li class="category-list__item">
+                <div class="category-list__item-function category__items--hover">
+                    <i class="fas fa-plus"></i>
+                    <div class="category-list__item-text">
+                        Tạo playlist
+                    </div>
+                </div>
+                <div class="category-list__item-function category__items--hover">
+                    <i class="fas fa-heart"></i>
+                    <div class="category-list__item-text">
+                        Những bài hát yêu thích
+                    </div>
+                </div>
+
+            </li>
+
+        </ul>
+
+        <ul class="category__sub-list">
+            <li class="category__sub-item category__items--hover">
+                Chill
+            </li>
+            <li class="category__sub-item category__items--hover">
+                <i class="fas fa-download"></i>
+                <div class="category-list__item-text ">
+                    Cài Đặt Ứng Dụng
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <div id="content">
+
+        <div id="header">
+            <div class="header__btn">
+                <div class="header__btn-left ">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="header__btn-right ">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+
+            <div class="header__accout">
+                <div class="header__accout-update header__accout-btn">
+                    NÂNG CẤP
+                </div>
+                <div class="header__accout-user header__accout-btn">
+                    <div class="header__btn-user">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="header__accout-text">
+                        Phamluong
+                    </div>
+                    <div class="header__btn-down">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="banner">
+            <div class="banner__content">
+                <img src="assets/img/banner.PNG" alt="" class="banner__img">
+                <div class="banner__text">
+                    <div class="banner__header-text">
+                        PLAYLIST
+                    </div>
+                    <div class="banner__name-list">
+                        Quen tai nghe hoài
+                    </div>
+                    <div class="banner__sub-text">
+                        <div class="banner__sub-header">
+                            Những bài hát bạn đang yêu thích
+                        </div>
+                        <div class="banner__sub-quantity">
+                            <div class="banner__spotify">
+                                spotify 
+                            </div>
+                            . 30 bài hát, 1h 26 phút
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="func">
+            <div class="btn-func">
+
+                <div class="func__btn-play">
+
+                    <div class="icon-play">
+                        <i class="fas fa-pause"></i>
+                    </div>
+                    <div class="icon-pause">
+                        <i class="fas fa-play"></i>
+                    </div>
+
+                </div>
+
+                <div class="func__btn-like func__btn--hover js-btn-sub-like">
+                    <i class="far fa-heart"></i>
+                </div>
+
+                <div class="func__btn-more func__btn--hover">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="header-song">
+            <div class="item-song__header">
+                <div class="item-song__stt">
+                    #
+                </div>
+
+                <div class="item-song__title">
+                    TIÊU ĐỀ
+                </div>
+
+                <div class="item-song__album">
+                    ALBUM
+                </div>
+
+                <div class="item-song__date">
+                    NGÀY THÊM
+                </div>
+
+                <div class="item-song__time">
+                    <i class="fas fa-clock"></i>
+                </div>
+            </div>
+        </div>
+
+        <ul id="list-song">
+
+            <!-- <li class="item-song item-song--active">
+
+                <div class="item-song__stt">
+                    1
+                    <div class="item-song__icon-play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div class="item-song__title">
+                    <div class="item-song__detail">
+                        <img src="assets/img/banner.PNG" alt="" class="item-song__img">
+
+                        <div class="item-song__name">
+                            <div class="item-song__name-song">
+                                Dấu Mưa
+                            </div>
+                            <div class="item-song__name-singer">
+                                Trung Quân
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-song__album">
+                    Tét
+                </div>
+
+                <div class="item-song__date">
+                    22 thg 2 , 2013
+                </div>
+
+                <div class="item-song__time">
+                    <div class="item-song__icon-like ">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                   <div class="item-song__quantity-time">
+                    4 : 20
+                   </div>
+                    <div class="item-song__icon-more">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+
+            </li> -->
+
+        
+        </ul>
+    </div>
+
+    <div id="dashborad">
+        <div class="info-song">
+            <div class="dashborad__cover-img">
+                <img src="" alt="" class="info-song__img">
+            </div>
+            
+            <div class="info-song__name">
+                <div class="info-song__name-song">
+                   
+                </div>
+                <div class="info-song__name-singer">
+                    
+                </div>
+            </div>
+            <div class="info-song__btn-like info-song__btn">
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="info-song__btn-tv info-song__btn">
+                <i class="fas fa-desktop"></i>
+            </div>
+        </div>
+
+        <div class="control">
+            <div class="control__btn">
+                <div class="control__btn-random">
+                    <div class="dashborad__btn-hover">
+                        <i class="fas fa-random"></i>
+                    </div>
+                </div>
+
+                <div class="control__btn-left dashborad__btn-hover">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+
+                <div class="control__btn-playing">
+                    <div class="control__btn-play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="control__btn-pause">
+                        <i class="fas fa-pause"></i>
+                    </div>
+                </div>
+
+                <div class="control__btn-right dashborad__btn-hover">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+
+                <div class="control__btn-loop ">
+                    <div class="dashborad__btn-hover">
+                        <i class="fas fa-undo-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <input class="control__progress" type="range" value="0" step="1" min="0" max="100" >
+            <audio src="" id="audio"></audio>
+        </div>
+
+        <div class="more-option">
+           <div class="more-option__computer dashborad__btn-hover">
+            <i class="fas fa-tv"></i>
+           </div>
+
+           <div class="more-option__volumn">
+               <div class="more-option__btn-volumn dashborad__btn-hover">
+                   <i class="fas fa-volume-up"></i>
+               </div>
+
+            <input type="range" class="process__voloumn"  value="0" step="1" min="0" max="100">
+            
+            
+           </div>
+        </div>
+        
+    </div>
+
+    bs3-input
+</body>
+
+<script src="assets/main.js">
+
+</script>
+
+
+</html>
+
